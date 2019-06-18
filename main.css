@@ -1,0 +1,175 @@
+body
+{
+	background-color:black;
+	color:#F0E68C;
+    font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+.sticky
+{
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+	z-index:100;
+	background-color:black;
+	border-bottom: 4px solid gray !important;
+}
+.container
+{
+	padding-bottom:40px;
+}
+
+
+#head
+{
+	text-align: center;
+}
+.tekstkolor
+{
+	color:rgb(54, 21, 241);
+	font-size:28px;
+	font-family: 'Shadows Into Light Two', cursive;
+
+}
+
+.cal
+{
+background-color:black;
+color:rgb(167, 60, 209);
+font-size:40px;
+
+}
+.calq
+{
+background-color:black;
+color:rgb(9, 186, 192);
+font-size:40px;
+}
+
+
+
+
+
+.media
+{
+	float:center;
+	margin:auto;
+	color:rgb(54, 21, 241);
+}
+
+
+.a
+{
+	border-radius: 25px 50px;
+	background-color:black;
+	font-size:40px; 
+	box-shadow: 10px 10px 5px black;
+}
+.frame
+{
+	border-radius:15px; 
+	border-width: medium;
+	
+
+}
+
+.g
+{
+	border-radius:30px;
+}
+.lcolor
+{
+	color:rgb(87, 226, 231) !important;
+	font-size:35px;
+
+}
+.qcolor
+{
+	color:rgb(0, 255, 13) !important;
+	font-size:35px;
+
+}
+.wcolor
+{
+	color:rgb(255, 251, 20) !important;
+	font-size:35px;
+
+}
+.ecolor
+{
+	color:rgb(241, 28, 21) !important;
+	font-size:35px;
+
+}
+.rcolor
+{
+	color:rgb(188, 19, 255) !important;
+	font-size:35px;
+
+}
+.tcolor
+{
+	color:rgb(240, 98, 16) !important;
+	font-size:35px;
+
+}
+.ycolor
+{
+	color:rgb(32, 194, 153) !important;
+	font-size:35px;
+
+}
+.ucolor
+{
+	color:rgb(16, 169, 240) !important;
+	font-size:35px;
+
+}
+.m 
+{
+	border-bottom: 4px dotted gray !important;
+	margin-bottom:10px;
+	
+}
+
+.preload
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    visibility: hidden;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color:black;
+    transition: opacity 400ms ease-in-out, visibility 0s 400ms;
+}
+
+.show-preloader
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+  .lds-default {
+	position: center;
+
+	
+	animation: lds-default 1.2s linear infinite;
+  }
+  
+  @keyframes lds-default {
+	0%, 20%, 80%, 100% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(1.5);
+	}
+   }
+  
